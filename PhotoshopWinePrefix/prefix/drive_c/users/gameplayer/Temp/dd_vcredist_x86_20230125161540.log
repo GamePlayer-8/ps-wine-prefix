@@ -1,0 +1,54 @@
+[019C:01A0][2023-01-25T16:15:40]: Burn v3.6.3542.0, Windows v6.3 (Build 9600: Service Pack 0), path: Z:\home\gameplayer\Adobe\photoshop-22-linux\scripts\installation_files\redist\2012\vcredist_x86.exe, cmdline: '/install /quiet /norestart -burn.unelevated BurnPipe.{C3A8F56E-CBCE-46EB-9534-344AA1934941} {70EEFD1D-228D-41F3-8785-43FEC8B0370B} 392'
+[019C:01A0][2023-01-25T16:15:40]: Setting string variable 'WixBundleLog' to value 'C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540.log'
+[019C:01A0][2023-01-25T16:15:40]: Setting string variable 'WixBundleOriginalSource' to value 'Z:\home\gameplayer\Adobe\photoshop-22-linux\scripts\installation_files\redist\2012\vcredist_x86.exe'
+[019C:01A0][2023-01-25T16:15:40]: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030'
+[019C:01A0][2023-01-25T16:15:41]: Detect 2 packages
+[019C:01A0][2023-01-25T16:15:41]: Detected package: vcRuntimeMinimum_x86, state: Absent, cached: None
+[019C:01A0][2023-01-25T16:15:41]: Detected package: vcRuntimeAdditional_x86, state: Absent, cached: None
+[019C:01A0][2023-01-25T16:15:41]: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[019C:01A0][2023-01-25T16:15:41]: Detect complete, result: 0x0
+[019C:01A0][2023-01-25T16:15:41]: Plan 2 packages, action: Install
+[019C:01A0][2023-01-25T16:15:41]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[019C:01A0][2023-01-25T16:15:41]: Setting string variable 'WixBundleRollbackLog_vcRuntimeMinimum_x86' to value 'C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_0_vcRuntimeMinimum_x86_rollback.log'
+[019C:01A0][2023-01-25T16:15:41]: Setting string variable 'WixBundleLog_vcRuntimeMinimum_x86' to value 'C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_0_vcRuntimeMinimum_x86.log'
+[019C:01A0][2023-01-25T16:15:41]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[019C:01A0][2023-01-25T16:15:41]: Setting string variable 'WixBundleRollbackLog_vcRuntimeAdditional_x86' to value 'C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_1_vcRuntimeAdditional_x86_rollback.log'
+[019C:01A0][2023-01-25T16:15:41]: Setting string variable 'WixBundleLog_vcRuntimeAdditional_x86' to value 'C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_1_vcRuntimeAdditional_x86.log'
+[019C:01A0][2023-01-25T16:15:41]: Planned package: vcRuntimeMinimum_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[019C:01A0][2023-01-25T16:15:41]: Planned package: vcRuntimeAdditional_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[019C:01A0][2023-01-25T16:15:41]: Plan complete, result: 0x0
+[019C:01A0][2023-01-25T16:15:41]: Apply begin
+[0188:018C][2023-01-25T16:15:41]: Creating a system restore point.
+[0188:018C][2023-01-25T16:15:41]: Created a system restore point.
+[0188:018C][2023-01-25T16:15:41]: Caching bundle from: 'C:\users\gameplayer\Temp\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\.be\vcredist_x86.exe' to: 'C:\ProgramData\Package Cache\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\vcredist_x86.exe'
+[0188:018C][2023-01-25T16:15:41]: Registering bundle dependency provider: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}, version: 11.0.61030.0
+[0188:01B0][2023-01-25T16:15:43]: Verified acquired payload: vcRuntimeMinimum_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeMinimum_x86, moving to: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi.
+[0188:01B0][2023-01-25T16:15:43]: Verified acquired payload: cab54A5CABBE7274D8A22EB58060AAB7623 at path: C:\ProgramData\Package Cache\.unverified\cab54A5CABBE7274D8A22EB58060AAB7623, moving to: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\cab1.cab.
+[0188:01B0][2023-01-25T16:15:43]: Verified acquired payload: vcRuntimeAdditional_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeAdditional_x86, moving to: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi.
+[0188:01B0][2023-01-25T16:15:43]: Verified acquired payload: cabB3E1576D1FEFBB979E13B1A5379E0B16 at path: C:\ProgramData\Package Cache\.unverified\cabB3E1576D1FEFBB979E13B1A5379E0B16, moving to: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\cab1.cab.
+[0188:018C][2023-01-25T16:15:43]: Applying execute package: vcRuntimeMinimum_x86, action: Install, path: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[019C:01A0][2023-01-25T16:15:43]: Applied execute package: vcRuntimeMinimum_x86, result: 0x0, restart: None
+[0188:018C][2023-01-25T16:15:43]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeMinimum_x86,v11, package: vcRuntimeMinimum_x86
+[0188:018C][2023-01-25T16:15:43]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v11, package: vcRuntimeMinimum_x86
+[0188:018C][2023-01-25T16:15:43]: Applying execute package: vcRuntimeAdditional_x86, action: Install, path: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[019C:01A0][2023-01-25T16:15:45]: Applied execute package: vcRuntimeAdditional_x86, result: 0x0, restart: None
+[0188:018C][2023-01-25T16:15:46]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeAdditional_x86,v11, package: vcRuntimeAdditional_x86
+[0188:018C][2023-01-25T16:15:46]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v11, package: vcRuntimeAdditional_x86
+[019C:01A0][2023-01-25T16:15:46]: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[019C:01A0][2023-01-25T16:15:46]: Shutting down, exit code: 0x0
+[019C:01A0][2023-01-25T16:15:46]: Variable: NTProductType = 1
+[019C:01A0][2023-01-25T16:15:46]: Variable: VersionNT = 6.3.0.0
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleAction = 4
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleElevated = 1
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleInstalled = 0
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleLog = C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540.log
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleLog_vcRuntimeAdditional_x86 = C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_1_vcRuntimeAdditional_x86.log
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleLog_vcRuntimeMinimum_x86 = C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_0_vcRuntimeMinimum_x86.log
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleName = Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleOriginalSource = Z:\home\gameplayer\Adobe\photoshop-22-linux\scripts\installation_files\redist\2012\vcredist_x86.exe
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleProviderKey = {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleRollbackLog_vcRuntimeAdditional_x86 = C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_1_vcRuntimeAdditional_x86_rollback.log
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleRollbackLog_vcRuntimeMinimum_x86 = C:\users\gameplayer\Temp\dd_vcredist_x86_20230125161540_0_vcRuntimeMinimum_x86_rollback.log
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleTag = 
+[019C:01A0][2023-01-25T16:15:46]: Variable: WixBundleVersion = 11.0.61030.0
+[019C:01A0][2023-01-25T16:15:46]: Exit code: 0x0, restarting: No
